@@ -1,0 +1,66 @@
+
+root { 
+    display: block;
+}
+
+a{
+    cursor: pointer;
+}
+
+.registerProductGrid{
+    float:left;
+    width:620px;
+    padding:0 15px 20px 0;
+}
+
+.registerProductGrid table{
+    float:left;
+    width:600px;
+}
+
+.registerProductGrid table td{
+    height:60px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.registerProductGrid a{
+    display: block;
+}
+
+.registerDisplay{
+    float:left;
+    width:620px;
+}
+
+#receiptProducts .product{
+    list-style: none;
+}
+
+#receiptProducts .product span, #receiptProducts .product .remove{
+    float: left;
+}
+
+#receiptProducts .product span{
+    line-height:60px;
+}
+
+#receiptProducts .product .label{
+    width:410px;
+}
+
+#receiptProducts .product .amount{
+    width:30px;
+}
+
+#receiptProducts .product .price{
+    width:50px;
+}
+
+#receiptProducts .product .remove{
+    width:60px;
+    height:60px;
+    display: block;
+    border:2px solid #000000;
+    font-size: 54px;
+}
